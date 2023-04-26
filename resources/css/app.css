@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @font-face {
+  font-family: 'dm-sans-bold';
+  src: url('/public/fonts/DMSans-Bold.ttf');
+  }
+  @font-face {
+  font-family: 'dm-sans-medium';
+  src: url('/public/fonts/DMSans-Medium.ttf');
+  }
+  @font-face {
+  font-family: 'dm-sans-regular';
+  src: url('/public/fonts/DMSans-Regular.ttf');
+  }
+
+/* Aplica estilos a la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra */
+    height: 10px; /* Altura de la barra (para la orientación horizontal) */
+    }
+  
+  /* Estilo del "thumb" (el desplazador en sí) */
+    ::-webkit-scrollbar-thumb {
+    background-color: gray-800; /* Color de fondo */
+    border-radius: 9999px; /* Borde redondeado */
+    }
+  
+  /* Estilo de la pista (el fondo de la barra) */
+  ::-webkit-scrollbar-track {
+  background-color: gray-100;
+  }
+  
+  /* Custom style */
+  .header-right {
+      width: calc(100% - 3.5rem);
+  }
+  .input-modal{
+    margin-right: 10%;
+    background-color: #E2E2E2;
+    color: black;
+    border-radius: 50px;
+    width: 20%;
+    height: 50px;
+  }
+  
+  /* .sidebar:hover {
+      width: 16rem;
+  }
+  @media only screen and (min-width: 768px) {
+      .header-right {
+          width: calc(100% - 16rem);
+      }        
+  } */
+
+
+ 
